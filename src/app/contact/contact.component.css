@@ -1,0 +1,22 @@
+.line {
+  background-color: black;
+  color: black;
+  width: 100px;
+  height: 5px;
+}
+
+input{
+  margin:20px 0 ;
+  width: 100%;
+  border:0 ;
+  border-bottom:1px solid #DEE2E6 ;
+
+}
+.form-control:focus {
+  border-color: #DEE2E6;
+  box-shadow: none;
+}
+.btn{
+  background: #19BC9B;
+  color: white;
+}

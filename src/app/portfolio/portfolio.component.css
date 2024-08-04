@@ -1,0 +1,79 @@
+.portfolio {
+  background-color: white;
+
+}
+
+h2 {
+  color: black;
+}
+
+.line {
+  background-color: black;
+  color: black;
+  width: 100px;
+  height: 5px;
+}
+
+i {
+  color: black;
+}
+
+div {
+  color: black;
+}
+
+.item img {
+  cursor: pointer;
+}
+
+
+
+.item .layer {
+  left: 0;
+
+  right: 0;
+  bottom: 100%;
+  top: 100%;
+  width:98%;
+  height: 100%;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.item:hover .layer {
+  bottom: 0%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: #3DB197;
+  opacity: 0.9;
+}
+
+.light-box {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.light-item {
+  width: 40%;
+  height: 50vh;
+  background-image: url(../../assets/imges/poert1.png);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.light-item i {
+  margin: 15px;
+  font-size: large;
+  cursor: pointer;
+
+}

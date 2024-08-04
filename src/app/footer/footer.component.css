@@ -1,0 +1,21 @@
+i {
+  position: relative;
+  padding: 10px;
+  color: white;
+
+
+}
+
+
+
+section {
+  background-color: #2C3D4F;
+  color: white;
+}
+
+.card {
+  background-color: #2C3D4F;
+  color: white;
+  border: 0px
+}
+
