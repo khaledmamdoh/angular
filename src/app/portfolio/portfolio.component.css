@@ -4,50 +4,36 @@
 }
 
 h2 {
-  color: black;
+  color: #2C3D4F;
 }
 
 .line {
-  background-color: black;
-  color: black;
+  background-color: #2C3D4F;
+  color: #2C3D4F;
   width: 100px;
   height: 5px;
 }
 
-i {
-  color: black;
-}
-
-div {
-  color: black;
-}
-
-.item img {
+.item{
   cursor: pointer;
 }
-
-
 
 .item .layer {
-  left: 0;
 
-  right: 0;
-  bottom: 100%;
-  top: 100%;
-  width:98%;
-  height: 100%;
-  transition: all .5s;
-  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.6s ease;
+
+
 }
 
 .item:hover .layer {
-  bottom: 0%;
-  top: 0%;
-  left: 0%;
-  right: 0%;
+
   background-color: #3DB197;
   opacity: 0.9;
 }
+
+
 
 .light-box {
   position: fixed;
